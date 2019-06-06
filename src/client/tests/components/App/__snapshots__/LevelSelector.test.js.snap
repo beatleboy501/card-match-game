@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <div
+    className="level-selector"
+  >
+    <WithStyles(Typography)
+      className="heading"
+      color="inherit"
+      variant="title"
+    >
+      Choose a Level
+    </WithStyles(Typography)>
+    <div
+      className="buttonSet"
+    >
+      <WithStyles(Button)
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        easy
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        hard
+      </WithStyles(Button)>
+    </div>
+  </div>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <WithStyles(Typography)
+          className="heading"
+          color="inherit"
+          variant="title"
+        >
+          Choose a Level
+        </WithStyles(Typography)>,
+        <div
+          className="buttonSet"
+        >
+          <WithStyles(Button)
+            className="button"
+            onClick={[Function]}
+            type="button"
+          >
+            easy
+          </WithStyles(Button)>
+          <WithStyles(Button)
+            className="button"
+            onClick={[Function]}
+            type="button"
+          >
+            hard
+          </WithStyles(Button)>
+        </div>,
+      ],
+      "className": "level-selector",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Choose a Level",
+          "className": "heading",
+          "color": "inherit",
+          "variant": "title",
+        },
+        "ref": null,
+        "rendered": "Choose a Level",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Button)
+              className="button"
+              onClick={[Function]}
+              type="button"
+            >
+              easy
+            </WithStyles(Button)>,
+            <WithStyles(Button)
+              className="button"
+              onClick={[Function]}
+              type="button"
+            >
+              hard
+            </WithStyles(Button)>,
+          ],
+          "className": "buttonSet",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "easy",
+            "nodeType": "class",
+            "props": Object {
+              "children": "easy",
+              "className": "button",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "easy",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "hard",
+            "nodeType": "class",
+            "props": Object {
+              "children": "hard",
+              "className": "button",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "hard",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <WithStyles(Typography)
+            className="heading"
+            color="inherit"
+            variant="title"
+          >
+            Choose a Level
+          </WithStyles(Typography)>,
+          <div
+            className="buttonSet"
+          >
+            <WithStyles(Button)
+              className="button"
+              onClick={[Function]}
+              type="button"
+            >
+              easy
+            </WithStyles(Button)>
+            <WithStyles(Button)
+              className="button"
+              onClick={[Function]}
+              type="button"
+            >
+              hard
+            </WithStyles(Button)>
+          </div>,
+        ],
+        "className": "level-selector",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Choose a Level",
+            "className": "heading",
+            "color": "inherit",
+            "variant": "title",
+          },
+          "ref": null,
+          "rendered": "Choose a Level",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Button)
+                className="button"
+                onClick={[Function]}
+                type="button"
+              >
+                easy
+              </WithStyles(Button)>,
+              <WithStyles(Button)
+                className="button"
+                onClick={[Function]}
+                type="button"
+              >
+                hard
+              </WithStyles(Button)>,
+            ],
+            "className": "buttonSet",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "easy",
+              "nodeType": "class",
+              "props": Object {
+                "children": "easy",
+                "className": "button",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "easy",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "hard",
+              "nodeType": "class",
+              "props": Object {
+                "children": "hard",
+                "className": "button",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "hard",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

@@ -1,0 +1,13 @@
+const START_TIMER = 'START_TIMER';
+const STOP_TIMER = 'STOP_TIMER';
+const RESET_TIMER = 'RESET_TIMER';
+const SET_DIFF = 'SET_DIFF';
+const TICK = 'TICK';
+
+export {
+  START_TIMER,
+  STOP_TIMER,
+  RESET_TIMER,
+  SET_DIFF,
+  TICK,
+};

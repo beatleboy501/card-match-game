@@ -1,0 +1,65 @@
+{
+  "name": "Card Match Game",
+  "author": "Your Name Here",
+  "description": "A game we won’t soon forget",
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.1.1",
+    "@material-ui/icons": "^3.0.1",
+    "awesome-debounce-promise": "^1.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-kyt-react": "0.3.0",
+    "compression": "^1.7.3",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "es6-promise": "^4.2.5",
+    "express": "4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "kyt": "0.9.0",
+    "prop-types": "^15.6.2",
+    "react": "16.3.0",
+    "react-dom": "16.3.0",
+    "react-redux": "^5.0.7",
+    "react-test-renderer": "^16.5.2",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-3": "^6.24.1",
+    "enzyme": "^3.6.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "1.8.2",
+    "redux-mock-store": "^1.5.3"
+  },
+  "scripts": {
+    "dev": "kyt dev",
+    "eslint": "eslint --fix ./src/client",
+    "build": "kyt build",
+    "start": "node build/server/main.js",
+    "proto": "kyt proto",
+    "test": "kyt test",
+    "test-watch": "kyt test -- --watch",
+    "test-coverage": "kyt test -- --coverage",
+    "lint": "npm run lint-script && npm run lint-style",
+    "lint-script": "kyt lint-script",
+    "lint-style": "kyt lint-style",
+    "kyt:help": "kyt --help"
+  },
+  "globals": {
+    "window": true
+  }
+}

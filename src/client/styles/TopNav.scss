@@ -1,0 +1,35 @@
+.appBar {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 80% !important;
+  margin-top: 1em !important;
+  padding: 0 55px 0 5px !important;
+
+  button {
+    align-self: center !important;
+  }
+
+  section {
+    position: absolute;
+    right: 15%;
+    align-self: center;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0;
+
+  img {
+    margin: 10px;
+    outline: 0.5px solid #000000;
+  }
+}
+
+.toolbar {
+  width: 100%;
+  justify-content: center;
+}

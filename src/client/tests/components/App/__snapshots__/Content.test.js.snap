@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <div
+    className="mainPanel"
+  >
+    <WithStyles(Paper)
+      className="paper"
+      elevation={10}
+    >
+      <Connect(MemoryGame)
+        cardMatchCount={2}
+        cards={
+          Array [
+            Object {
+              "id": 1,
+              "value": "a",
+            },
+            Object {
+              "id": 2,
+              "value": "b",
+            },
+            Object {
+              "id": 3,
+              "value": "c",
+            },
+            Object {
+              "id": 4,
+              "value": "d",
+            },
+            Object {
+              "id": 5,
+              "value": "a",
+            },
+            Object {
+              "id": 6,
+              "value": "b",
+            },
+            Object {
+              "id": 7,
+              "value": "c",
+            },
+            Object {
+              "id": 8,
+              "value": "d",
+            },
+          ]
+        }
+        onGameComplete={[MockFunction]}
+        onGameStart={[MockFunction]}
+      />
+    </WithStyles(Paper)>
+  </div>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <WithStyles(Paper)
+        className="paper"
+        elevation={10}
+      >
+        <Connect(MemoryGame)
+          cardMatchCount={2}
+          cards={
+            Array [
+              Object {
+                "id": 1,
+                "value": "a",
+              },
+              Object {
+                "id": 2,
+                "value": "b",
+              },
+              Object {
+                "id": 3,
+                "value": "c",
+              },
+              Object {
+                "id": 4,
+                "value": "d",
+              },
+              Object {
+                "id": 5,
+                "value": "a",
+              },
+              Object {
+                "id": 6,
+                "value": "b",
+              },
+              Object {
+                "id": 7,
+                "value": "c",
+              },
+              Object {
+                "id": 8,
+                "value": "d",
+              },
+            ]
+          }
+          onGameComplete={[MockFunction]}
+          onGameStart={[MockFunction]}
+        />
+      </WithStyles(Paper)>,
+      "className": "mainPanel",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Connect(MemoryGame)
+          cardMatchCount={2}
+          cards={
+            Array [
+              Object {
+                "id": 1,
+                "value": "a",
+              },
+              Object {
+                "id": 2,
+                "value": "b",
+              },
+              Object {
+                "id": 3,
+                "value": "c",
+              },
+              Object {
+                "id": 4,
+                "value": "d",
+              },
+              Object {
+                "id": 5,
+                "value": "a",
+              },
+              Object {
+                "id": 6,
+                "value": "b",
+              },
+              Object {
+                "id": 7,
+                "value": "c",
+              },
+              Object {
+                "id": 8,
+                "value": "d",
+              },
+            ]
+          }
+          onGameComplete={[MockFunction]}
+          onGameStart={[MockFunction]}
+        />,
+        "className": "paper",
+        "elevation": 10,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "cardMatchCount": 2,
+          "cards": Array [
+            Object {
+              "id": 1,
+              "value": "a",
+            },
+            Object {
+              "id": 2,
+              "value": "b",
+            },
+            Object {
+              "id": 3,
+              "value": "c",
+            },
+            Object {
+              "id": 4,
+              "value": "d",
+            },
+            Object {
+              "id": 5,
+              "value": "a",
+            },
+            Object {
+              "id": 6,
+              "value": "b",
+            },
+            Object {
+              "id": 7,
+              "value": "c",
+            },
+            Object {
+              "id": 8,
+              "value": "d",
+            },
+          ],
+          "onGameComplete": [MockFunction],
+          "onGameStart": [MockFunction],
+        },
+        "ref": [Function],
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <WithStyles(Paper)
+          className="paper"
+          elevation={10}
+        >
+          <Connect(MemoryGame)
+            cardMatchCount={2}
+            cards={
+              Array [
+                Object {
+                  "id": 1,
+                  "value": "a",
+                },
+                Object {
+                  "id": 2,
+                  "value": "b",
+                },
+                Object {
+                  "id": 3,
+                  "value": "c",
+                },
+                Object {
+                  "id": 4,
+                  "value": "d",
+                },
+                Object {
+                  "id": 5,
+                  "value": "a",
+                },
+                Object {
+                  "id": 6,
+                  "value": "b",
+                },
+                Object {
+                  "id": 7,
+                  "value": "c",
+                },
+                Object {
+                  "id": 8,
+                  "value": "d",
+                },
+              ]
+            }
+            onGameComplete={[MockFunction]}
+            onGameStart={[MockFunction]}
+          />
+        </WithStyles(Paper)>,
+        "className": "mainPanel",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Connect(MemoryGame)
+            cardMatchCount={2}
+            cards={
+              Array [
+                Object {
+                  "id": 1,
+                  "value": "a",
+                },
+                Object {
+                  "id": 2,
+                  "value": "b",
+                },
+                Object {
+                  "id": 3,
+                  "value": "c",
+                },
+                Object {
+                  "id": 4,
+                  "value": "d",
+                },
+                Object {
+                  "id": 5,
+                  "value": "a",
+                },
+                Object {
+                  "id": 6,
+                  "value": "b",
+                },
+                Object {
+                  "id": 7,
+                  "value": "c",
+                },
+                Object {
+                  "id": 8,
+                  "value": "d",
+                },
+              ]
+            }
+            onGameComplete={[MockFunction]}
+            onGameStart={[MockFunction]}
+          />,
+          "className": "paper",
+          "elevation": 10,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "cardMatchCount": 2,
+            "cards": Array [
+              Object {
+                "id": 1,
+                "value": "a",
+              },
+              Object {
+                "id": 2,
+                "value": "b",
+              },
+              Object {
+                "id": 3,
+                "value": "c",
+              },
+              Object {
+                "id": 4,
+                "value": "d",
+              },
+              Object {
+                "id": 5,
+                "value": "a",
+              },
+              Object {
+                "id": 6,
+                "value": "b",
+              },
+              Object {
+                "id": 7,
+                "value": "c",
+              },
+              Object {
+                "id": 8,
+                "value": "d",
+              },
+            ],
+            "onGameComplete": [MockFunction],
+            "onGameStart": [MockFunction],
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
